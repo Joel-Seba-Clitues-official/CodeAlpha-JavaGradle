@@ -12,7 +12,7 @@ Before running the application, ensure you have the following installed:
 
 ### Step 1: Install Dependencies
 Ensure you have Java and Gradle installed:
-sh
+
 java -version  # Verify Java installation
 gradle -v      # Verify Gradle installation
 
@@ -20,14 +20,13 @@ gradle -v      # Verify Gradle installation
 ## Running the Application
 To build and run the application, use the following commands:
 
-sh
 gradle build   # Compile the project
 gradle run     # Execute the application
 
 
 ### Expected Output:
 
-> Task :run
+Task :run
 Hello, Gradle Java Application!
 
 
