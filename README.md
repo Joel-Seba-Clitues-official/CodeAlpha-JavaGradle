@@ -14,6 +14,7 @@ Before running the application, ensure you have the following installed:
 Ensure you have Java and Gradle installed:
 
 java -version  # Verify Java installation
+
 gradle -v      # Verify Gradle installation
 
 
@@ -21,12 +22,14 @@ gradle -v      # Verify Gradle installation
 To build and run the application, use the following commands:
 
 gradle build   # Compile the project
+
 gradle run     # Execute the application
 
 
 ### Expected Output:
 
 Task :run
+
 Hello, Gradle Java Application!
 
 
